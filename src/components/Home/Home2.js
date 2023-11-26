@@ -20,26 +20,30 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I build Web-based soultions🤷‍♂️
+              I build Web-based soultions 🤷‍♂️
               <br />
-              <br />I'm a Full Stack Developer and goal-driven creative mindset and 
+              <br />I'm a Full Stack Developer and goal-driven creative mindset and passion for
               <i>
-                passion for <b className="purple"> learning and innovating. </b>
+                {" "} <b className="purple"> learning and innovating </b>
               </i>
               <br />
               <br />
               Experienced in end-to-end software development. Having a good understanding of customer relations and having the
               <i>
-                <b className="purple"> ability to provide high-quality products  </b> on time
+                <b className="purple"> ability to provide high-quality products  </b>
                 <b className="purple">
                 </b>
               </i>
+              on time
               <br />
               <br />
-              I had worked as Full Stack Developer for 4.5 years during which I had worked with  
-              <b className="purple"> 
-                <a className="purple home-link" href="https://www.accenture.com/in-en" target="blank"> Accenture </a>
-              </b> and
+              I had worked as Full Stack Developer for 4.5 years during which I had worked with
+              <i>
+
+                <b className="purple">
+                  <a className="purple home-link" href="https://www.accenture.com/in-en" target="blank"> Accenture </a>
+                </b>
+              </i> and
               <i>
                 <b className="purple">
                   {" "}
