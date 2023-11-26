@@ -4,9 +4,12 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiSlack,
-  SiVercel,
+  SiXcode,
   SiMacos,
 } from "react-icons/si";
+import {
+  DiUnitySmall,
+} from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -24,7 +27,10 @@ function Toolstack() {
         <SiSlack />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiXcode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiUnitySmall />
       </Col>
     </Row>
   );
