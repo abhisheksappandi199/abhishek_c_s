@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://abhisheksappandi199.github.io/abhishek_c_s",
+  "homepage": "https://abhishek-c-s.vercel.app/",
   "private": true,
   "dependencies": {
     "@mui/icons-material": "^5.14.18",
