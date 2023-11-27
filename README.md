@@ -1,6 +1,5 @@
 <h2 align="center">
-  Portfolio<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">Abhishek C Sappandi</a>
+  Portfolio
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img-1.png" />

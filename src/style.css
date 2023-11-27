@@ -446,11 +446,20 @@ button:focus {
 }
 
 .footer h3 {
-  font-size: 1em;
-  color: white !important;
+  font-size: 10px;
+  color: #797979 !important;
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;
+  opacity: 0.93 !important;
 }
+
+h3:hover {
+  opacity: 0.93 !important;
+  font-size: 10px;
+  color: #c0bfbf !important;
+}
+
+
 .footer-icons {
   margin-top: 0.5em !important;
   margin-bottom: 0.5em !important;

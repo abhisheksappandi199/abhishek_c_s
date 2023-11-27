@@ -5,7 +5,6 @@ import {
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiUnitySmall,
   DiGit,
 } from "react-icons/di";
 import { TbBrandGraphql, TbBrandRedux } from "react-icons/tb";
@@ -49,12 +48,6 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <FaAws />
       </Col>
-      {/* <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col> */}
     </Row>
   );
 }

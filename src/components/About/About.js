@@ -9,7 +9,7 @@ import TechnicalJourney from './journey/TechnicalJourney';
 import ProjectJourney from './journey/ProjectJourney';
 import ExperienceJourney from './journey/ExperienceJourney';
 import EducationJourney from './journey/EducationJourney';
-import { Container, Row, Col, Nav, Button } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 
 function About() {
   const [selectedTab, setSelectedTab] = React.useState('educationjourney');
