@@ -3,7 +3,8 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { MdOutlineStar } from "react-icons/md";;
+import { MdOutlineStar } from "react-icons/md";
+import { FaGraduationCap } from "react-icons/fa";
 
 function EducationJourney() {
   return (
@@ -14,57 +15,56 @@ function EducationJourney() {
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "white" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2004 - 2014"
+          date="2009 - 2013"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<MdOutlineStar />}
+          icon={<FaGraduationCap />}
         >
           <h4 className="vertical-timeline-element-title">
-            SECONDARY SCHOOL CERTIFICATE
+          SECONDARY SCHOOL CERTIFICATE 
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            BOF High School, Gazipur
+          Shri Vijay Mahantesh, Ilkal
           </h4>
           <p>
-            Studied here from Class 1 to 10th as a part of secondary school
-            Certificate and gain GPA 5 in my SSC Examination.
+            Studied here from Class 7th to 10th as a part of secondary school
+            Certificate and gain 82% in my SSC Examination.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "white" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2014 - 2018"
+          date="2013 - 2015"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<MdOutlineStar />}
+          icon={<FaGraduationCap />}
         >
           <h4 className="vertical-timeline-element-title">
-            DIPLOMA IN ENGINEERING
+            PRE-UNIVERSITY COURSE
           </h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Dhaka Polytechnic Institute, Dhaka
+            Chetan P. U. Science College
           </h4>
           <p>
-            Studied Diploma in Computer Technology from Dhaka Polytechnic
-            institute and gain CGPA 2.98.
+            Studied PU in Chetan collage and gain 87%
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentStyle={{ background: "rgb(78 22 112)", color: "white" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date="2019 - 2023"
+          date="2015 - 2019"
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<MdOutlineStar />}
+          icon={<FaGraduationCap />}
         >
           <h4 className="vertical-timeline-element-title">GRADUATION</h4>
           <h4 className="vertical-timeline-element-subtitle mt-2">
-            Sonargaon University, Dhaka
+            Dayananda Sagar College Of Engineering
           </h4>
           <p>
-            Studied Bachelor of Science degree in Computer Science and
-            Engineering field from Sonargaon University and gain CGPA 3.44.
+            Studied Bachelor of Engineering degree in Information Science and
+            Engineering field from DSCE and gain CGPA 8.83.
           </p>
         </VerticalTimelineElement>
 

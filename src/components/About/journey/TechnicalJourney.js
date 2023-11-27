@@ -66,9 +66,19 @@ function TechnicalJourney() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiPython />}
+          icon={<DiMysql />}
         >
-          <h3 className="vertical-timeline-element-title">PYTHON</h3>
+          <h3 className="vertical-timeline-element-title">MySQL</h3>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
+          date=""
+          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
+          icon={<RiComputerLine />}
+        >
+          <h3 className="vertical-timeline-element-title">C#</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -106,19 +116,9 @@ function TechnicalJourney() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiPhp />}
+          icon={<DiReact />}
         >
-          <h3 className="vertical-timeline-element-title">PHP</h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
-          date=""
-          iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiMysql />}
-        >
-          <h3 className="vertical-timeline-element-title">MySQL</h3>
+          <h3 className="vertical-timeline-element-title">REACT</h3>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
@@ -136,9 +136,9 @@ function TechnicalJourney() {
           contentArrowStyle={{ borderRight: "7px solid  rgb(78 22 112)" }}
           date=""
           iconStyle={{ background: "rgb(78 22 112)", color: "#fbd9ad" }}
-          icon={<DiReact />}
+          icon={<RiComputerLine />}
         >
-          <h3 className="vertical-timeline-element-title">REACT</h3>
+          <h3 className="vertical-timeline-element-title">MangoDB</h3>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
