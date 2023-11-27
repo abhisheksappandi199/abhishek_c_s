@@ -3,33 +3,13 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-// import MdOutlineStar from "@mui/icons-material/Person";
-import { Link } from "react-router-dom";
-// import MdOutlineStar from "@mui/icons-material/Star";
-// import Flip from "react-reveal/Flip";
 import { MdOutlineStar } from "react-icons/md";
 
 function ExperienceJourney() {
   return (
     <div className="mt-5">
-      <div>
-        <Link className="btn btn-primary m-1" to="/educationjourney">
-          Educational Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
-          Experience Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/technicaljourney">
-          Technical Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/projectjourney">
-          Project Journey
-        </Link>
-      </div>
       <div className="mt-5">
-        {/* <Flip top cascade> */}
-          <h1>Experience Journey</h1>
-        {/* </Flip> */}
+        <h1>Experience Journey</h1>
       </div>
       <VerticalTimeline>
         <VerticalTimelineElement
@@ -46,17 +26,17 @@ function ExperienceJourney() {
           <h6 className="vertical-timeline-element-subtitle mt-2">
             Management of Information System
           </h6>
-          <p>• Proficient in developing, deploying and managing computerized systems that gather, retain, evaluate and exhibit 
+          <p>• Proficient in developing, deploying and managing computerized systems that gather, retain, evaluate and exhibit
             data to facilitate the achievement of organizational aims and objectives.</p>
-          <p>• Proficient in collecting and organizing data from diverse sources, utilizing statistical techniques and software 
+          <p>• Proficient in collecting and organizing data from diverse sources, utilizing statistical techniques and software
             tools for data analysis and creating comprehensive reports and presentations that showcase significant insights and trends.</p>
-          <p>• Consistently completed assigned tasks in a timely and efficient manner as directed by management, while maintaining 
+          <p>• Consistently completed assigned tasks in a timely and efficient manner as directed by management, while maintaining
             effective communication between the company and employees.</p>
-          <p>• Proficient in monitoring daily business operation costs, verifying and evaluating accounting transactions updates, 
+          <p>• Proficient in monitoring daily business operation costs, verifying and evaluating accounting transactions updates,
             and providing corresponding reports to top management.</p>
-          <p>• Skilled in collecting and compiling monthly reports, conducting inventory analysis for month-end, quarterly, 
+          <p>• Skilled in collecting and compiling monthly reports, conducting inventory analysis for month-end, quarterly,
             and year-end closing, and submitting reports in accordance with management requirements.</p>
-          <p>• Proficient in developing and maintaining various reporting dashboard, technical support to end-users, 
+          <p>• Proficient in developing and maintaining various reporting dashboard, technical support to end-users,
             diagnosing hardware and software issues, and collaborating with IT teams to promptly resolve system-related problems.</p>
         </VerticalTimelineElement>
 

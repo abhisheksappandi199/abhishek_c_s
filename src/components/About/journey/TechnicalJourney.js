@@ -3,9 +3,6 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { Link } from "react-router-dom";
-// import DiJava from "@mui/icons-material/Star";
-// import ComputerIcon from "@mui/icons-material/Computer";
 import { RiComputerLine } from "react-icons/ri";
 import { MdOutlineStar } from "react-icons/md";
 import {
@@ -19,32 +16,14 @@ import {
   DiMysql,
   DiNodejs,
 } from "react-icons/di";
-// import Flip from "react-reveal/Flip";
-// import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 
 function TechnicalJourney() {
   console.log('inside');
   return (
     <div className="mt-5">
-      <div>
-        <Link className="btn btn-primary m-1" to="/educationjourney">
-          Educational Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
-          Experience Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/technicaljourney">
-          Technical Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/projectjourney">
-          Project Journey
-        </Link>
-      </div>
       <div className="mt-5">
-        {/* <Flip top cascade> */}
-          <h1>Technical Journey</h1>
-        {/* </Flip> */}
+        <h1>Technical Journey</h1>
       </div>
       <VerticalTimeline>
         <VerticalTimelineElement

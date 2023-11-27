@@ -3,33 +3,13 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-// import MdOutlineStar from "@mui/icons-material/School";
-import { Link } from "react-router-dom";
-// import MdOutlineStar from "@mui/icons-material/Star";
-// import Flip from "react-reveal/Flip"
 import { MdOutlineStar } from "react-icons/md";;
 
 function EducationJourney() {
   return (
     <div className="mt-5">
-      <div>
-        <Link className="btn btn-primary m-1" to="/educationjourney">
-          Educational Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/experiencejourney">
-          Experience Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/technicaljourney">
-          Technical Journey
-        </Link>
-        <Link className="btn btn-primary m-1" to="/projectjourney">
-          Project Journey
-        </Link>
-      </div>
       <div className="mt-5">
-        {/* <Flip top cascade> */}
           <h1>Qualification Journey</h1>
-        {/* </Flip> */}
       </div>
       <VerticalTimeline>
         <VerticalTimelineElement

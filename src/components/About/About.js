@@ -1,5 +1,4 @@
 import React from "react";
-// import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
@@ -7,9 +6,27 @@ import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import TechnicalJourney from './journey/TechnicalJourney';
-import { Container, Row, Col,Nav } from "react-bootstrap";
-import { Link,Outlet } from 'react-router-dom';
+import ProjectJourney from './journey/ProjectJourney';
+import ExperienceJourney from './journey/ExperienceJourney';
+import EducationJourney from './journey/EducationJourney';
+import { Container, Row, Col, Nav, Button } from "react-bootstrap";
+
 function About() {
+  const [selectedTab, setSelectedTab] = React.useState('educationjourney');
+
+  const hanldeClick = (selected) => {
+    setSelectedTab(selected)
+  }
+
+  const getTabs = () => {
+    switch (selectedTab) {
+      case 'technicaljourney': return <TechnicalJourney />
+      case 'projectjourney': return <ProjectJourney />
+      case 'educationjourney': return <EducationJourney />
+      case 'experiencejourney': return <ExperienceJourney />
+      default: return 'x'
+    }
+  }
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -36,21 +53,32 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
+
+        <Button className="btn btn-primary m-1 journey-button" onClick={() => hanldeClick('educationjourney')}>
+          Educational Journey
+        </Button>
+        <Button className="btn btn-primary m-1 journey-button" onClick={() => hanldeClick('experiencejourney')}>
+          Experience Journey
+        </Button>
+        <Button className="btn btn-primary m-1 journey-button" onClick={() => hanldeClick('technicaljourney')}>
+          Technical Journey
+        </Button>
+        <Button className="btn btn-primary m-1 journey-button" onClick={() => hanldeClick('projectjourney')}>
+          Project Journey
+        </Button>
+        <>{getTabs()}</>
+
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>
         </h1>
-
         <Techstack />
 
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-<TechnicalJourney/>
-<Nav.Item>
-                                <Nav.Link as={Link} to="educationjourney" eventKey="link-3" style={{ fontSize: "17px",fontWeight:700 }}>Journey</Nav.Link>
-                            </Nav.Item>
         {/* <Github /> */}
+
       </Container>
     </Container>
   );

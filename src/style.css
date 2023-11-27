@@ -617,6 +617,10 @@ button:focus {
     padding-top: 0 !important;
   }
 }
+
+.journey-button {
+  opacity: 0.93 !important;
+}
 /* --------- */
 /* Resume */
 /* --------- */
