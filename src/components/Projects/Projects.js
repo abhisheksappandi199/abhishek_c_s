@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import mobile from "../../Assets/Projects/mobile_shop.png";
+import mobile from "../../Assets/Projects/mobile_shop.jpg";
 import ilkal from "../../Assets/Projects/ilkal_1.jpg";
-import react from "../../Assets/Projects/react.png";
+import react from "../../Assets/Projects/react.jpg";
 
 function Projects() {
   return (
