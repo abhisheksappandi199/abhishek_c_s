@@ -25,7 +25,7 @@ function ExperienceJourney() {
             Accenture (Pvt.) Limited
           </h5>
           <h6 className="vertical-timeline-element-subtitle mt-2" style={{ color: "#fbd9ad" }}>
-            Virtual shoping - ( role: Unity developer )
+            Virtual shopping - ( role: Unity developer )
           </h6>
           <p>• I led an XR project, securing second place in the Accenture All Indian Innovation Contest 2021.</p>
           <p>• Using C# and Unity, I created an immersive environment where users navigate aisles, interact with products and place items within their carts.</p>
@@ -82,15 +82,15 @@ function ExperienceJourney() {
           <p>• Leveraged GraphQL's caching capabilities to efficiently manage and store data, enhancing the application's performance by reducing unnecessary network requests.</p> 
           <p>• Addressed performance bottlenecks by optimizing rendering, reducing unnecessary re-renders, and implementing efficient state management techniques.</p>
           <p>• Engineered a React study calendar application ensuring cross-compatibility, full responsiveness, and accessibility across multiple devices for an optimized user experience.</p>
-          <p>• Implemented the same project in react native with redux as state managment.</p>
+          <p>• Implemented the same project in react native with redux as state management.</p>
 
           <h6 className="vertical-timeline-element-subtitle mt-2" style={{ color: "#fbd9ad" }}>
           Performance Tracker and Dark theme - ( role: React Native developer )
           </h6>
           <p>• Took the ownership of Performance Tracker where students can track their progress and compare score with avg.</p>
           <p>• Leveraged TypeScript for robust typing, ensuring data integrity and minimizing errors in the performance tracker module.</p>
-          <p>• Quantify the impact of the performance tracker and dark theme, improved user engagement by 23%. We got opportinuty to demo in all hand meeting</p>
-          <p>• Migrated standard css to scss, implemented the dark theme.</p>
+          <p>• Quantify the impact of the performance tracker and dark theme, improved user engagement by 23%. We got opportunity to demo in all hand meeting</p>
+          <p>• Migrated standard styled components to scss, implemented the dark theme.</p>
 
           <h6 className="vertical-timeline-element-subtitle mt-2" style={{ color: "#fbd9ad" }}>
             React Upgrade - ( role: React developer )
