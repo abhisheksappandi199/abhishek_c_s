@@ -1,3 +1,5 @@
+#!grrovy
+
 pipeline {
     environment {
         registry = "abhisheksappandi/devops"
